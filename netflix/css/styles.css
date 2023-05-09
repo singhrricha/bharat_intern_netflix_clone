@@ -1,0 +1,206 @@
+/* Overall page  */
+
+body{
+    color: white;
+    background-color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;  
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 250;
+    padding-bottom: 7%;
+    line-height: 3rem;
+}
+
+.container-fluid{
+    padding: 1% 7%;
+}
+
+hr{
+    border-bottom: 8px solid #222;
+}
+/*  Banner  */
+
+.banner{
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.title-words{
+    padding: 0 55% 0 0;
+    bottom: 20%;
+}
+
+
+/*  30 Day Button  */
+
+.red-free-trial{
+    background-color: #e50914;
+    border-color: #e50914;
+
+}
+
+/*  Sign In Button  */
+
+.sign-in{
+    background-color: #e50914;
+    border-color: #e50914;
+    font-size: 1.2rem;
+    
+
+}
+
+.sign-in-block{
+    text-align: right;
+}
+
+/*  Images  */
+
+img{
+    max-width: 100%;
+}
+
+
+
+.title-to-tv{
+    background-color: black;
+}
+
+/* TV Section  */
+#tv-section{
+    background-color: black;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    /*top: 21%;
+    left: 13%;*/
+}
+
+.wording{
+    padding: 10% 5%;
+}
+
+/*  Watch everywhere section  */
+
+.watch-everywhere-img{
+    padding-top: 3%;
+}
+
+
+/* FAQ section  */
+
+.accordion>.card .card-header {
+    margin-bottom: -10%;
+}
+    
+#faqSection h1{
+    text-align: center;
+
+}
+
+#faqSection .red-free-trial{
+    margin: 1% 15%;
+
+}
+
+#faqAccordion{
+    margin: 4% 15%;
+
+}
+
+.faq-line-break{
+    color: white;
+    border: 1px solid;
+    margin-bottom: -1%;
+}
+
+.card{
+    background-color: #333;
+    margin-bottom: 1%;
+
+}
+
+.btn-link{
+    color: white;
+    
+}
+
+.btn-link:hover{
+    color: white;
+    text-decoration-line: none;
+}
+
+.faq-questions{
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    
+    
+}
+
+.card-body{
+    font-size: 1.5rem;
+    font-weight: 250;
+}
+
+
+/* Footer  */
+.footer{
+    line-height: 2.5rem;
+    font-weight: lighter;
+    color: #a6a6a6;
+    padding: 0 13% 0 18%;
+}
+
+.language-button{
+    padding-top: 2%;
+    font-size: 1rem;
+}
+
+.languages{
+    font-size: 1rem;
+}
+
+/*  Media Queries  */
+
+@media (max-width: 847px) { 
+    
+    .banner {
+        height: 100%;
+    }
+
+}
+
+
+@media (max-width: 860px) { 
+    
+    #faqSection .red-free-trial{
+        margin: 1% 5%;;
+    }
+    
+    #faqAccordion{
+        margin: 4% 5%;
+    }
+
+}
+
+@media (min-width: 1468px) { 
+    
+    .accordion>.card .card-header {
+        margin-bottom: -5.5%;
+    }
+
+}
